@@ -1,39 +1,35 @@
 {
-  "_from": "serverless-offline-aws-ssm@^1.0.0",
-  "_id": "serverless-offline-aws-ssm@1.0.0",
+  "_from": "serverless-offline-aws-ssm-local@^1.1.0",
+  "_id": "serverless-offline-aws-ssm-local@1.1.0",
   "_inBundle": false,
   "_integrity": "sha512-RHViolQGG7rqTD83IABldDo5aiD0cmEOgwgU6fsmz6WWEWLyEg5ctS96NfRn/UkRmAsiGJkWXBmhadn0+PfMBQ==",
-  "_location": "/serverless-offline-aws-ssm",
+  "_location": "/serverless-offline-aws-ssm-local",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "serverless-offline-aws-ssm@^1.0.0",
-    "name": "serverless-offline-aws-ssm",
-    "escapedName": "serverless-offline-aws-ssm",
-    "rawSpec": "^1.0.0",
+    "raw": "serverless-offline-aws-ssm-local@^1.1.0",
+    "name": "serverless-offline-aws-ssm-local",
+    "escapedName": "serverless-offline-aws-ssm-local",
+    "rawSpec": "^1.1.0",
     "saveSpec": null,
-    "fetchSpec": "^1.0.0"
+    "fetchSpec": "^1.1.0"
   },
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "https://registry.npmjs.org/serverless-offline-aws-ssm/-/serverless-offline-aws-ssm-1.0.0.tgz",
-  "_shasum": "21f33979ec48e2c8e32eb4d9e733c8c2aa9f4d9b",
-  "_spec": "serverless-offline-aws-ssm@^1.0.0",
-  "_where": "/mnt/d/Q/GitHub-Repos/qvalia-serverless-proxy",
   "author": {
     "name": "Scott Rossillo"
   },
   "bugs": {
-    "url": "https://github.com/QAnders/serverless-offline-aws-ssm/issues"
+    "url": "https://github.com/QAnders/serverless-offline-aws-ssm-local/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
     "js-yaml": "^3.12.0"
   },
   "deprecated": false,
-  "description": "Serverless Offline SSM Provider",
+  "description": "Serverless Offline SSM Provider for invoke local",
   "devDependencies": {
     "eslint": "^5.8.0",
     "eslint-config-airbnb-base": "^13.1.0",
@@ -44,7 +40,7 @@
   "files": [
     "README.md"
   ],
-  "homepage": "https://github.com/QAnders/serverless-offline-aws-ssm#readme",
+  "homepage": "https://github.com/QAnders/serverless-offline-aws-ssm-local#readme",
   "keywords": [
     "serverless",
     "offline",
@@ -52,10 +48,10 @@
   ],
   "license": "Apache-2.0",
   "main": "index.js",
-  "name": "serverless-offline-aws-ssm",
+  "name": "serverless-offline-aws-ssm-local",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/QAnders/serverless-offline-aws-ssm.git"
+    "url": "git+ssh://git@github.com/QAnders/serverless-offline-aws-ssm-local.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
