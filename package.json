@@ -26,7 +26,7 @@
     "name": "Scott Rossillo"
   },
   "bugs": {
-    "url": "https://github.com/foo4u/serverless-offline-aws-ssm/issues"
+    "url": "https://github.com/QAnders/serverless-offline-aws-ssm/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -44,7 +44,7 @@
   "files": [
     "README.md"
   ],
-  "homepage": "https://github.com/foo4u/serverless-offline-aws-ssm#readme",
+  "homepage": "https://github.com/QAnders/serverless-offline-aws-ssm#readme",
   "keywords": [
     "serverless",
     "offline",
@@ -55,7 +55,7 @@
   "name": "serverless-offline-aws-ssm",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/foo4u/serverless-offline-aws-ssm.git"
+    "url": "git+ssh://git@github.com/QAnders/serverless-offline-aws-ssm.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
