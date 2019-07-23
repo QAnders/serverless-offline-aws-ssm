@@ -1,0 +1,64 @@
+{
+  "_from": "serverless-offline-aws-ssm@^1.0.0",
+  "_id": "serverless-offline-aws-ssm@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-RHViolQGG7rqTD83IABldDo5aiD0cmEOgwgU6fsmz6WWEWLyEg5ctS96NfRn/UkRmAsiGJkWXBmhadn0+PfMBQ==",
+  "_location": "/serverless-offline-aws-ssm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "serverless-offline-aws-ssm@^1.0.0",
+    "name": "serverless-offline-aws-ssm",
+    "escapedName": "serverless-offline-aws-ssm",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/serverless-offline-aws-ssm/-/serverless-offline-aws-ssm-1.0.0.tgz",
+  "_shasum": "21f33979ec48e2c8e32eb4d9e733c8c2aa9f4d9b",
+  "_spec": "serverless-offline-aws-ssm@^1.0.0",
+  "_where": "/mnt/d/Q/GitHub-Repos/qvalia-serverless-proxy",
+  "author": {
+    "name": "Scott Rossillo"
+  },
+  "bugs": {
+    "url": "https://github.com/foo4u/serverless-offline-aws-ssm/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "js-yaml": "^3.12.0"
+  },
+  "deprecated": false,
+  "description": "Serverless Offline SSM Provider",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-security": "^1.4.0"
+  },
+  "files": [
+    "README.md"
+  ],
+  "homepage": "https://github.com/foo4u/serverless-offline-aws-ssm#readme",
+  "keywords": [
+    "serverless",
+    "offline",
+    "ssm"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "serverless-offline-aws-ssm",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/foo4u/serverless-offline-aws-ssm.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
