@@ -1,6 +1,5 @@
 {
   "_from": "serverless-offline-aws-ssm-local@^1.1.0",
-  "_id": "serverless-offline-aws-ssm-local@1.1.0",
   "_inBundle": false,
   "_integrity": "sha512-RHViolQGG7rqTD83IABldDo5aiD0cmEOgwgU6fsmz6WWEWLyEg5ctS96NfRn/UkRmAsiGJkWXBmhadn0+PfMBQ==",
   "_location": "/serverless-offline-aws-ssm-local",
@@ -18,14 +17,9 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "author": {
-    "name": "Scott Rossillo"
-  },
+  "author": "Scott Rossillo",
   "contributors": [
-    {
-      "name": "Anders Wasén",
-      "email": "awasen@gmail.com"
-    }
+    "Anders Wasén <awasen@gmail.com>"
   ],
   "bugs": {
     "url": "https://github.com/QAnders/serverless-offline-aws-ssm-local/issues"
@@ -62,5 +56,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
