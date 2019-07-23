@@ -3,6 +3,8 @@
 [Serverless] plugin to resolves SSM paramters (variables) from a local file to
 support Serverless offline development.
 
+### This is a "clone" of a 404 Repo for https://www.npmjs.com/package/serverless-offline-aws-ssm by @foo4u
+
 ## Usage
 
 ### Install the Plugin
@@ -15,12 +17,11 @@ or
 
 ### Add to Serverless
 
-Add the serverless-offline-aws-ssm before the serverless offline plugin:
+Add the serverless-offline-aws-ssm:
 
 ```yaml
 plugins:
   - serverless-offline-aws-ssm
-  - serverless-offline
 ```
 
 ### Define your SSM Parameter Values
