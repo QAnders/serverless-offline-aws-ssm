@@ -17,7 +17,7 @@ or
 
     yarn add -D serverless-offline-aws-ssm
     
-*NB!* This installs the existing (non working) version from NPM. This code needs to be updated with the changes from this repo! 
+**NB!** This installs the existing (non working) version from NPM. The NPM code needs to be updated with the changes from this repo to work with Serverless versions ^1.3! 
 
 ### Add to Serverless
 
