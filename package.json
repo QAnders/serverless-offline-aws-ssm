@@ -21,6 +21,12 @@
   "author": {
     "name": "Scott Rossillo"
   },
+  "contributors": [
+    {
+      "name": "Anders Wasén",
+      "email": "awasen@gmail.com"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/QAnders/serverless-offline-aws-ssm-local/issues"
   },
