@@ -11,11 +11,11 @@ This is to be used for local (DEV) testing while running Serverless Invoke Local
 
 ### Install the Plugin
 
-    npm i --save-dev serverless-offline-aws-ssm
+    npm i --save-dev serverless-offline-aws-ssm-local
 
 or
 
-    yarn add -D serverless-offline-aws-ssm
+    yarn add -D serverless-offline-aws-ssm-local
     
 **NB!** This installs the existing (non working) version from NPM. The NPM code needs to be updated with the changes from this repo to work with Serverless versions ^1.3! 
 
@@ -25,7 +25,7 @@ Add the serverless-offline-aws-ssm:
 
 ```yaml
 plugins:
-  - serverless-offline-aws-ssm
+  - serverless-offline-aws-ssm-local
 ```
 
 ### Define your SSM Parameter Values
