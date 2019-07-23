@@ -1,9 +1,11 @@
+This is a "clone" of a 404 Repo for https://www.npmjs.com/package/serverless-offline-aws-ssm by @foo4u
+----------------------------------------------------------------------------------------------------------
 # Serverless Offline SSM Parameter Provider
 
 [Serverless] plugin to resolves SSM paramters (variables) from a local file to
 support Serverless offline development.
 
-### This is a "clone" of a 404 Repo for https://www.npmjs.com/package/serverless-offline-aws-ssm by @foo4u
+This is to be used for local (DEV) testing while running Serverless Invoke Local!
 
 ## Usage
 
@@ -50,5 +52,10 @@ ssm:
     /my-service/foo/redis-endpoint: some-value
     /path/to/secureparam: other-value
 ```
+
+### Invoke local
+
+When running your Lambda add the `--offline` argument, e.g.:
+`sls invoke local --function routes --path ../samples/routes.test.json --offline`
 
 [Serverless]: https://serverless.com/
