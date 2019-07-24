@@ -1,5 +1,5 @@
 {
-  "_from": "serverless-offline-aws-ssm-local@^1.1.0",
+  "_from": "serverless-offline-aws-ssm-local@^1.1.1",
   "_inBundle": false,
   "_integrity": "sha512-RHViolQGG7rqTD83IABldDo5aiD0cmEOgwgU6fsmz6WWEWLyEg5ctS96NfRn/UkRmAsiGJkWXBmhadn0+PfMBQ==",
   "_location": "/serverless-offline-aws-ssm-local",
@@ -7,12 +7,12 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "serverless-offline-aws-ssm-local@^1.1.0",
+    "raw": "serverless-offline-aws-ssm-local@^1.1.1",
     "name": "serverless-offline-aws-ssm-local",
     "escapedName": "serverless-offline-aws-ssm-local",
-    "rawSpec": "^1.1.0",
+    "rawSpec": "^1.1.1",
     "saveSpec": null,
-    "fetchSpec": "^1.1.0"
+    "fetchSpec": "^1.1.1"
   },
   "_requiredBy": [
     "#DEV:/"
@@ -56,5 +56,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
