@@ -39,20 +39,29 @@ class ServerlessOfflineSSMProvider {
         const request = aws.request.bind(aws);
 
         aws.request = (service, method, params, options) => {
+            let Type = "SecureString"
             if (service !== SSM || method !== "getParameter") {
                 return request(service, method, params, options);
             }
-
             const { Name } = params;
-            const Value = this.ssm[Name];
+            let Value = this.ssm[Name];
 
             if (!Value) {
                 return Promise.reject(new Error(`SSM parameter ${Name} not found in ${OFFLINE_YAML}`));
             }
 
+            if (Array.isArray(Value)) {
+                Type = "StringList";
+                Value = Value.join(",");
+            }
+            else if (typeof Value === "object") {
+                Value = JSON.stringify(Value)
+            }
+
             return Promise.resolve({
                 Parameter: {
-                    Value
+                    Value,
+                    Type
                 }
             });
         };
